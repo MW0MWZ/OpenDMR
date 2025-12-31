@@ -1,0 +1,21 @@
+OpenDMR Encoder - AMBE+2 Vocoder Encoder
+=========================================
+
+This encoder is derived from the OP25 project's MBE encoder.
+
+MBEEncoder:
+  Copyright (C) 2013-2019 Max H. Parke KA1RBI
+  https://github.com/osmocom/op25
+
+IMBE Vocoder:
+  Based on vocoder research and implementation from the OP25 project.
+  The IMBE vocoder provides the core pitch estimation, spectral
+  analysis, and voice parameter quantization.
+
+  Original IMBE Vocoder:
+  Copyright (C) 2009 Pavel Yazev
+
+Golay FEC:
+  Golay(24,12) and Golay(23,12) encoder implementation from the OP25 project.
+
+This code is licensed under the GNU General Public License v2.0 (GPL-2.0).

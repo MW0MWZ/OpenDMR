@@ -1,0 +1,111 @@
+# Compiled object files
+*.o
+*.obj
+
+# Static and shared libraries
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+
+# Executables
+dmr_codec
+dmr_codec.exe
+
+# Build artifacts
+*.out
+*.app
+*.dSYM/
+
+# Test files
+*.raw
+*.ambe
+*.pcm
+*.wav
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# macOS resource forks
+Icon?
+.nfs*
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+\#*\#
+.project
+.cproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+compile_commands.json
+build/
+_build/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Profiling
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/

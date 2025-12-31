@@ -1,0 +1,22 @@
+OpenDMR Decoder - AMBE+2 Vocoder Decoder
+=========================================
+
+This decoder is derived from mbelib-neo by arancormonk, which is itself
+based on the original mbelib by Pavel Yazev.
+
+Original mbelib:
+  Copyright (C) 2010 Pavel Yazev
+  https://github.com/szechyjs/mbelib
+
+mbelib-neo enhancements:
+  Copyright (C) 2023 arancormonk
+  - Improved audio synthesis using PFFFT
+  - Adaptive spectral enhancement
+  - Code cleanup and modernization
+
+PFFFT (Pretty Fast FFT):
+  Copyright (C) 2013 Julien Pommier
+  https://bitbucket.org/jpommier/pffft
+  Based on FFTPACK by Paul Swarztrauber
+
+This code is licensed under the GNU General Public License v2.0 (GPL-2.0).
